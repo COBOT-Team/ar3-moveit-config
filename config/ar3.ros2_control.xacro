@@ -1,17 +1,14 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <xacro:macro name="ar3_ros2_control" params="name initial_positions_file">
+    <xacro:macro name="ar3_ros2_control" params="name initial_positions_file serial_port baud_rate">
+
         <xacro:property name="initial_positions" value="${load_yaml(initial_positions_file)['initial_positions']}"/>
 
         <ros2_control name="${name}" type="system">
             <hardware>
-                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
-                <!-- <plugin>mock_components/GenericSystem</plugin> -->
-
-
                 <plugin>ar3_hardware_interface/AR3HardwareInterface</plugin>
-                <param name="serial_port">/dev/ttyCobot0</param>
-                <param name="baud_rate">115200</param>
+                <param name="serial_port">${serial_port}</param>
+                <param name="baud_rate">${baud_rate}</param>
             </hardware>
             <joint name="joint_0">
                 <command_interface name="position"/>
