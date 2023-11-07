@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ar3">
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+    <xacro:arg name="serial_port" default="/dev/ttyCobot0" />
+    <xacro:arg name="baud_rate" default="115200" />
 
     <!-- Import ar3 urdf file -->
     <xacro:include filename="$(find ar3_description)/urdf/ar3.urdf.xacro" />
@@ -9,6 +11,6 @@
     <xacro:include filename="ar3.ros2_control.xacro" />
 
 
-    <xacro:ar3_ros2_control name="ar3_system" initial_positions_file="$(arg initial_positions_file)"/>
+    <xacro:ar3_ros2_control name="ar3_system" initial_positions_file="$(arg initial_positions_file)" serial_port="$(arg serial_port)" baud_rate="$(arg baud_rate)"/>
 
 </robot>
