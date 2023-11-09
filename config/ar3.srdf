@@ -17,7 +17,9 @@
         <joint name="joint_3"/>
         <joint name="joint_4"/>
         <joint name="joint_5"/>
+        <link name="ar3_gripper" />
     </group>
+    
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="ar3_gripper" parent_link="link_5" group="ar3_arm"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
