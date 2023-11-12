@@ -1,13 +1,13 @@
 moveit_setup_assistant_config:
   urdf:
     package: ar3_description
-    relative_path: urdf/ar3.urdf.xacro
+    relative_path: urdf/two_cobots.urdf.xacro
   srdf:
-    relative_path: config/ar3.srdf
+    relative_path: config/two_cobots.srdf
   package_settings:
     author_name: Zach Champion
     author_email: zchampion2020@my.fit.edu
-    generated_timestamp: 1696539118
+    generated_timestamp: 1699752207
   control_xacro:
     command:
       - position
