@@ -18,6 +18,7 @@
                 <plugin>ar3_hardware_interface/AR3HardwareInterface</plugin>
                 <param name="serial_port">${cobot0_serial_port}</param>
                 <param name="baud_rate">${cobot0_baud_rate}</param>
+                <param name="prefix">cobot0</param>
             </hardware>
             <joint name="cobot0_joint_0">
                 <command_interface name="position"/>
@@ -76,6 +77,7 @@
                 <plugin>ar3_hardware_interface/AR3HardwareInterface</plugin>
                 <param name="serial_port">${cobot1_serial_port}</param>
                 <param name="baud_rate">${cobot1_baud_rate}</param>
+                <param name="prefix">cobot1</param>
             </hardware>
             <joint name="cobot1_joint_0">
                 <command_interface name="position"/>
