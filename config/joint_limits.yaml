@@ -8,63 +8,73 @@ default_acceleration_scaling_factor: 0.1
 # Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
+  cobot0_gripper:
+    has_velocity_limits: true
+    max_velocity: 0.0087266462599716477
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_0:
     has_velocity_limits: true
     max_velocity: 1.3962634015954636
-    has_acceleration_limits: true
-    max_acceleration: 4.1188
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_1:
     has_velocity_limits: true
     max_velocity: 1.0471975511965976
-    has_acceleration_limits: true
-    max_acceleration: 4.1188
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_2:
     has_velocity_limits: true
     max_velocity: 2.7925268031909272
-    has_acceleration_limits: true
-    max_acceleration: 3.8397
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_3:
     has_velocity_limits: true
     max_velocity: 4.1887902047863905
-    has_acceleration_limits: true
-    max_acceleration: 20.9440
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_4:
     has_velocity_limits: true
     max_velocity: 3.4906585039886591
-    has_acceleration_limits: true
-    max_acceleration: 10.4720
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot0_joint_5:
     has_velocity_limits: true
     max_velocity: 26.179938779914941
-    has_acceleration_limits: true
-    max_acceleration: 139.6263
+    has_acceleration_limits: false
+    max_acceleration: 0
+  cobot1_gripper:
+    has_velocity_limits: true
+    max_velocity: 0.0087266462599716477
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_0:
     has_velocity_limits: true
     max_velocity: 1.3962634015954636
-    has_acceleration_limits: true
-    max_acceleration: 4.1188
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_1:
     has_velocity_limits: true
     max_velocity: 1.0471975511965976
-    has_acceleration_limits: true
-    max_acceleration: 4.1188
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_2:
     has_velocity_limits: true
     max_velocity: 2.7925268031909272
-    has_acceleration_limits: true
-    max_acceleration: 3.8397
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_3:
     has_velocity_limits: true
     max_velocity: 4.1887902047863905
-    has_acceleration_limits: true
-    max_acceleration: 20.9440
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_4:
     has_velocity_limits: true
     max_velocity: 3.4906585039886591
-    has_acceleration_limits: true
-    max_acceleration: 10.4720
+    has_acceleration_limits: false
+    max_acceleration: 0
   cobot1_joint_5:
     has_velocity_limits: true
     max_velocity: 26.179938779914941
-    has_acceleration_limits: true
-    max_acceleration: 139.6263
+    has_acceleration_limits: false
+    max_acceleration: 0

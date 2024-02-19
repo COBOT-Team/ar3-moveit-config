@@ -68,8 +68,16 @@
                 </state_interface>
                 <state_interface name="velocity"/>
             </joint>
-          </ros2_control>
-
+            <joint name="cobot0_gripper">
+                <command_interface name="position"/>
+                <command_interface name="velocity"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['cobot0_gripper']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+        </ros2_control>
+        
           
         <!-- COBOT 1 -->
         <ros2_control name="cobot1_ros2_control" type="system">
@@ -124,6 +132,14 @@
                 <command_interface name="velocity"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['cobot1_joint_5']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="cobot1_gripper">
+                <command_interface name="position"/>
+                <command_interface name="velocity"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['cobot1_gripper']}</param>
                 </state_interface>
                 <state_interface name="velocity"/>
             </joint>

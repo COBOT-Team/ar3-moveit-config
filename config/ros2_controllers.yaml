@@ -11,6 +11,14 @@ controller_manager:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
+    cobot0_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    cobot1_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
@@ -38,6 +46,24 @@ cobot1_controller:
       - cobot1_joint_3
       - cobot1_joint_4
       - cobot1_joint_5
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+cobot0_gripper_controller:
+  ros__parameters:
+    joint: cobot0_gripper
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+cobot1_gripper_controller:
+  ros__parameters:
+    joint: cobot1_gripper
     command_interfaces:
       - position
       - velocity
