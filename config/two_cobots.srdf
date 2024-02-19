@@ -65,6 +65,7 @@
         <joint name="cobot0_joint_3" value="0"/>
         <joint name="cobot0_joint_4" value="0"/>
         <joint name="cobot0_joint_5" value="0"/>
+        <joint name="cobot0_gripper" value="0"/>
     </group_state>
     <group_state name="home" group="cobot1">
         <joint name="cobot1_joint_0" value="0"/>
@@ -73,6 +74,7 @@
         <joint name="cobot1_joint_3" value="0"/>
         <joint name="cobot1_joint_4" value="0"/>
         <joint name="cobot1_joint_5" value="0"/>
+        <joint name="cobot1_gripper" value="0"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="cobot0_gripper" parent_link="cobot0_link_5" group="cobot0_gripper" parent_group="cobot0"/>
