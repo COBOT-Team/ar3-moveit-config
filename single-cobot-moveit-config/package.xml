@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ar3_moveit_config</name>
+  <name>single_cobot_moveit_config</name>
   <version>0.3.0</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the two_cobots with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the cobot0 with the MoveIt Motion Planning Framework
   </description>
   <maintainer email="zchampion2020@my.fit.edu">Zach Champion</maintainer>
 
