@@ -1,7 +1,5 @@
-# Default initial positions for cobot0's ros2_control fake system
-
 initial_positions:
-  cobot0_gripper: 0
+  cobot0_gripper: 2.443460953
   cobot0_joint_0: 0
   cobot0_joint_1: 0
   cobot0_joint_2: 0

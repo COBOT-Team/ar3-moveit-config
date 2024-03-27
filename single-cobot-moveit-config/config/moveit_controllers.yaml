@@ -22,7 +22,7 @@ moveit_simple_controller_manager:
     default: true
   cobot0_gripper_controller:
     type: GripperCommand
+    action_ns: gripper_cmd
+    default: true
     joints:
       - cobot0_gripper
-    action_ns: gripper_action
-    default: true
