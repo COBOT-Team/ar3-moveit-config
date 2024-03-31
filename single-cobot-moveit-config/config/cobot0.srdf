@@ -25,28 +25,28 @@
         <joint name="cobot0_joint_5" value="0"/>
     </group_state>
     <group_state name="deposit" group="cobot0">
-        <joint name="cobot0_joint_0" value="0"/>
-        <joint name="cobot0_joint_1" value="0.1834"/>
-        <joint name="cobot0_joint_2" value="2.1816"/>
-        <joint name="cobot0_joint_3" value="0"/>
-        <joint name="cobot0_joint_4" value="0.8221"/>
-        <joint name="cobot0_joint_5" value="0"/>
+        <joint name="cobot0_joint_0" value="2.2344577748657404"/>
+        <joint name="cobot0_joint_1" value="0.8277922109283906"/>
+        <joint name="cobot0_joint_2" value="1.1218627365969152"/>
+        <joint name="cobot0_joint_3" value="0.00038397243543875255"/>
+        <joint name="cobot0_joint_4" value="1.2168784610754866"/>
+        <joint name="cobot0_joint_5" value="0.6572386364235047"/>
     </group_state>
     <group_state name="above_clock" group="cobot0">
-        <joint name="cobot0_joint_0" value="1.0144"/>
-        <joint name="cobot0_joint_1" value="0.4858"/>
-        <joint name="cobot0_joint_2" value="1.8243"/>
-        <joint name="cobot0_joint_3" value="0"/>
-        <joint name="cobot0_joint_4" value="0.8032"/>
-        <joint name="cobot0_joint_5" value="0"/>
+        <joint name="cobot0_joint_0" value="0.9530719446365435"/>
+        <joint name="cobot0_joint_1" value="0.5918760559363171"/>
+        <joint name="cobot0_joint_2" value="1.5437611766815045"/>
+        <joint name="cobot0_joint_3" value="-0.02764601535159018"/>
+        <joint name="cobot0_joint_4" value="1.0133556170004276"/>
+        <joint name="cobot0_joint_5" value="-0.6059957695849512"/>
     </group_state>
     <group_state name="press_clock" group="cobot0">
-        <joint name="cobot0_joint_0" value="1.0144"/>
-        <joint name="cobot0_joint_1" value="0.7504"/>
-        <joint name="cobot0_joint_2" value="2.1816"/>
-        <joint name="cobot0_joint_3" value="0"/>
-        <joint name="cobot0_joint_4" value="0.3118"/>
-        <joint name="cobot0_joint_5" value="0"/>
+        <joint name="cobot0_joint_0" value="0.9519025740377074"/>
+        <joint name="cobot0_joint_1" value="0.6490530422316513"/>
+        <joint name="cobot0_joint_2" value="1.597814023615769"/>
+        <joint name="cobot0_joint_3" value="-0.029251718263424965"/>
+        <joint name="cobot0_joint_4" value="0.9025621160838276"/>
+        <joint name="cobot0_joint_5" value="-0.6043377067955565"/>
     </group_state>
     <group_state name="out_of_way" group="cobot0">
         <joint name="cobot0_joint_0" value="-1.7453"/>

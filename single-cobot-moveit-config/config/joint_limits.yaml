@@ -15,31 +15,31 @@ joint_limits:
     max_acceleration: 0
   cobot0_joint_0:
     has_velocity_limits: true
-    max_velocity: 1.3962634015954636
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 1.3614
+    has_acceleration_limits: true
+    max_acceleration: 4.1888
   cobot0_joint_1:
     has_velocity_limits: true
-    max_velocity: 1.0471975511965976
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 1.0123
+    has_acceleration_limits: true
+    max_acceleration: 4.1888
   cobot0_joint_2:
     has_velocity_limits: true
-    max_velocity: 2.7925268031909272
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 2.7576
+    has_acceleration_limits: true
+    max_acceleration: 3.8397
   cobot0_joint_3:
     has_velocity_limits: true
-    max_velocity: 4.1887902047863905
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 4.1539
+    has_acceleration_limits: true
+    max_acceleration: 20.9440
   cobot0_joint_4:
     has_velocity_limits: true
-    max_velocity: 3.4906585039886591
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 3.4558
+    has_acceleration_limits: true
+    max_acceleration: 10.4720
   cobot0_joint_5:
     has_velocity_limits: true
-    max_velocity: 26.179938779914941
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 26.1450
+    has_acceleration_limits: true
+    max_acceleration: 139.6263
