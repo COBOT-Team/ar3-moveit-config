@@ -57,10 +57,13 @@
         <joint name="cobot0_joint_5" value="0"/>
     </group_state>
     <group_state name="close" group="cobot0_gripper">
-        <joint name="cobot0_gripper" value="2.7925"/>
+        <joint name="cobot0_gripper" value="3.1416"/>
+    </group_state>
+    <group_state name="neutral" group="cobot0_gripper">
+        <joint name="cobot0_gripper" value="1.7453"/>
     </group_state>
     <group_state name="open" group="cobot0_gripper">
-        <joint name="cobot0_gripper" value="0.5236"/>
+        <joint name="cobot0_gripper" value="0"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="cobot0_gripper" parent_link="cobot0_link_5" group="cobot0_gripper" parent_group="cobot0"/>
