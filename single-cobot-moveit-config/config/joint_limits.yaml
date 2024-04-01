@@ -40,6 +40,6 @@ joint_limits:
     max_acceleration: 10.4720
   cobot0_joint_5:
     has_velocity_limits: true
-    max_velocity: 26.1450
+    max_velocity: 13.9626
     has_acceleration_limits: true
-    max_acceleration: 139.6263
+    max_acceleration: 93.0842
