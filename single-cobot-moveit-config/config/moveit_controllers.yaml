@@ -29,3 +29,14 @@ moveit_simple_controller_manager:
     joints:
       - cobot0_gripper
     execution_duration_monitoring: false
+
+  # cobot0_bias_controller:
+  #   type: JointGroupPositionController
+  #   action_ns: bias_controller
+  #   default: true
+  #   joints:
+  #     - cobot0_joint_0_bias
+  #     - cobot0_joint_1_bias
+  #     - cobot0_joint_2_bias
+  #     - cobot0_joint_3_bias
+  #     - cobot0_joint_4_bias
