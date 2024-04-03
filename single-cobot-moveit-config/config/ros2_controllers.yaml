@@ -10,6 +10,9 @@ controller_manager:
     cobot0_gripper_controller:
       type: position_controllers/GripperActionController
 
+    cobot0_bias_controller:
+      type: position_controllers/JointGroupPositionController
+
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
