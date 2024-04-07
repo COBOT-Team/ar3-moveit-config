@@ -16,6 +16,7 @@
                 <param name="baud_rate">${cobot0_baud_rate}</param>
                 <param name="prefix">cobot0</param>
               </hardware>
+
             <joint name="cobot0_joint_0">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
@@ -64,6 +65,7 @@
                 </state_interface>
                 <state_interface name="velocity"/>
             </joint>
+
             <joint name="cobot0_gripper">
                 <command_interface name="position"/>
                 <state_interface name="position">
@@ -71,6 +73,42 @@
                 </state_interface>
             </joint>
 
+            <joint name="cobot0_joint_0_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
+            <joint name="cobot0_joint_1_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
+            <joint name="cobot0_joint_2_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
+            <joint name="cobot0_joint_3_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
+            <joint name="cobot0_joint_4_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
+            <joint name="cobot0_joint_5_bias">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+            </joint>
         </ros2_control>
     </xacro:macro>
 </robot>
