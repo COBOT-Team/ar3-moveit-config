@@ -57,7 +57,7 @@
         <joint name="cobot0_joint_5" value="0"/>
     </group_state>
     <group_state name="close" group="cobot0_gripper">
-        <joint name="cobot0_gripper" value="3.1416"/>
+        <joint name="cobot0_gripper" value="2.792526803"/>
     </group_state>
     <group_state name="neutral" group="cobot0_gripper">
         <joint name="cobot0_gripper" value="1.7453"/>
