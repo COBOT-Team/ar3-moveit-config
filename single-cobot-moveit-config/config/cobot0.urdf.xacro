@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="cobot0">
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
-    <xacro:arg name="cobot0_serial_port" default="/dev/ttyCobot0" />
+    <xacro:arg name="cobot0_serial_port" default="/dev/ttyCobot1" />
     <xacro:arg name="cobot0_baud_rate" default="115200" />
 
     <!-- Import cobot0 urdf file -->
